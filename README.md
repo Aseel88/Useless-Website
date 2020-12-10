@@ -1,8 +1,6 @@
 # Useless-Website
 
-# Fake News
-
-<img src="" width= "100%">
+<img src="https://media1.giphy.com/media/l0Ex7JJvEwVXuyOTS/giphy.gif?cid=ecf05e47q4mqhra5v9nj8n7gvelxkjedbjbbu99qctxxw12v&rid=giphy.gif" width= "100%">
 
 ## Table of contents
 
