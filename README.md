@@ -12,6 +12,10 @@
 -   [License](#license)
 
 ## General info
+- This project is to create an useless website, with many requirements in JavaScript,  example: event listeners, arrays or objects.
+
+- The project should be deployed to either Netlify or Vercel.
+  This is my project's link: 
 
 
 
@@ -34,7 +38,7 @@ $ git clone
 Change directories to the new directory:
 
 ```
-$ cd ~/Fake-News/
+$ cd ~//
 ```
 
 Run a local server using the command line:
@@ -55,7 +59,7 @@ The project was tested by:
 
 -   
 -  
--   
+   
 
 ## License
 
