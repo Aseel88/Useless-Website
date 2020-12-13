@@ -86,7 +86,7 @@ section{
 
   -webkit-animation-name:         slide   ; 
   animation: 20s ease-in-out 0.5s 1 Slide;
- 
+  -webkit-animation-iteration-count: infinite;
 } 
 .stars{
   display: flex;

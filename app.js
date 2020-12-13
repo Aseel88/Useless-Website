@@ -42,29 +42,23 @@ button.addEventListener('click', ()=>{
               
       if(randImg === "./img/water-400.gif"){
      emoji.classList.add('open');
-    emojiP.textContent= emojis[0];
-    // emojiP.classList.add('animateEmoji'); 
-    
+    emojiP.textContent= emojis[0];     
     }
     if(randImg === "./img/awesome-400.gif"){
         emoji.classList.add('open');
-       emojiP.textContent= emojis[3];
-    //    emojiP.classList.add('animateEmoji'); 
+       emojiP.textContent= emojis[3];   
     }
     if(randImg === "./img/teasing-400.gif"){
         emoji.classList.add('open');
-       emojiP.textContent= emojis[1];
-    //    emojiP.classList.add('animateEmoji'); 
+       emojiP.textContent= emojis[1];     
     }
     if(randImg === "./img/wedding-400.gif"){
         emoji.classList.add('open');
-       emojiP.textContent= emojis[4];
-    //    emojiP.classList.add('animateEmoji'); 
+       emojiP.textContent= emojis[4]; 
     }
     if(randImg === "./img/dollars-400.gif"){
         emoji.classList.add('open');
-       emojiP.textContent= emojis[2];
-       emojiP.classList.add('animateEmoji'); 
+       emojiP.textContent= emojis[2]; 
     }       
     //   emojiP.classList.add('animateEmoji');  
  });
