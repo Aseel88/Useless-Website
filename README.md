@@ -15,7 +15,7 @@
 
 - The project should be deployed to either Netlify or Vercel.
   This is my project's link: 
-
+  https://upbeat-kowalevski-8a8786.netlify.app/
 
 
 ## Technologies
