@@ -41,16 +41,10 @@ Change directories to the new directory:
 $ cd ~//
 ```
 
-Run a local server using the command line:
+Run a local server 
 
-```
-$ php -S localhost:8000
 
-```
 
-## Comments
-
-### 
 
 
 ## Testers

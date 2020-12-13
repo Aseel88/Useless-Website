@@ -1,0 +1,148 @@
+:root{
+  --bg: rgb(51, 50, 50);
+  --color: rgb(214, 21, 231);
+  --heading: "GreatVibes-Regular";
+  --button: "Dosis", sans-serif;
+  --border: rgb(214, 21, 231);
+  --button-bg: rgb(202, 200, 200);
+
+
+}
+@font-face {
+  font-family: "GreatVibes-Regular";
+  src: url("./fonts/GreatVibes-Regular.woff") format("woff"); 
+  font-weight: 800;
+  font-style: italic;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes Slide {
+ 
+   0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-200%);
+  }
+
+  50% {
+    transform: translateX(200%);
+  }
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg);
+
+} 
+h1{
+  font-family: var(--heading);
+  font-weight: bolder;
+  margin: 0px;
+  color: var(--color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.gif{
+  display: flex;
+  justify-content: center;
+  }
+.button{
+  margin-top: 0px;
+  border-radius: 5px;
+  width:100px;
+  height: 25px;
+  font-weight: bold;
+  background-color: var(--button-bg);
+  font-family: var(--button);
+  border: 2px solid var(--border);
+
+ }
+.animate {
+  -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        20s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+} 
+.animateEmoji{
+
+  -webkit-animation-name:         slide   ; 
+  animation: 20s ease-in-out 0.5s 1 Slide;
+ 
+} 
+.stars{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+  margin: 20px;
+  width: 100%;
+ }
+
+ .fas {
+  font-size: 40px;
+  color:var(--color);
+}
+.emoji{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.emoji.open{
+  display: block;
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 0px; 
+}
+.emoji p{
+  margin-top: 0px;
+  font-size: 60px;
+  margin-bottom: -100px;
+ 
+}
+@media screen and (min-width: 700px){
+  .gif{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 0px;
+   }
+  img{
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+}
+ @media screen and (min-width: 1000px){
+ body{
+   margin: 0px;
+ }
+  section{
+   margin-top: -10px;
+   margin-bottom: 100px;     
+   } 
+   h1{
+     margin-top: 0px;
+   }
+  .gif{
+    margin-top: 5px;
+   }
+ }
