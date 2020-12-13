@@ -7,7 +7,6 @@
 -   [General info](#general-info)
 -   [Technologies](#technologies)
 -   [Installation](#installation)
--   [Comments](#comments)
 -   [Testers](#testers)
 -   [License](#license)
 
@@ -38,13 +37,10 @@ $ git clone
 Change directories to the new directory:
 
 ```
-$ cd ~//
+$ cd ~/Useless-Website/
 ```
 
-Run a local server 
-
-
-
+Run a live server. 
 
 
 ## Testers
@@ -57,4 +53,4 @@ The project was tested by:
 
 ## License
 
-MIT License. For more details 
+MIT License. For more details https://github.com/Aseel88/Useless-Website/blob/main/LICENSE
