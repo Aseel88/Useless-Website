@@ -47,8 +47,8 @@ Run a live server.
 
 The project was tested by:
 
--   
--  
+-  Evelyn Fredin 
+-  Agnes Binett
    
 
 ## License
